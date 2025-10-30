@@ -76,9 +76,11 @@ Closing: Fills small dark holes and connects broken parts.
 Visually, after applying these operations, the image appears smoother and cleaner.
 
 ## 🧾 Summary Table
-Operation	Process	Effect	Use Case
-Opening	Erosion → Dilation	Removes small white noise	Clean up background
-Closing	Dilation → Erosion	Fills small black holes	Connect object regions
+| Operation   | Process            | Effect                    | Use Case               |
+| ----------- | ------------------ | ------------------------- | ---------------------- |
+| **Opening** | Erosion → Dilation | Removes small white noise | Clean up background    |
+| **Closing** | Dilation → Erosion | Fills small black holes   | Connect object regions |
+
 ## 🧰 Dependencies
 
 Python
